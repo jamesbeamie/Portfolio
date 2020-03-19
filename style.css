@@ -119,6 +119,13 @@ body{
 .skill .bars p, .site-content .skill .bars span{
     line-height: 10px;
 }
+.testimony{
+    padding: 1rem;
+    font: normal 300 18px var(--font-os);
+}
+.testimon{
+    padding: 1rem;
+}
 
 #footer form .row .col input[type="text"],
 #footer form .row .col input[type="email"],
