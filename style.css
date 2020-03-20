@@ -6,6 +6,7 @@ body{
 }
 
 :root{
+    --color-blue: #0080ff;
     --color-black: #000000;
     --color-white: #ffffff;
     --color-border: #ffffff34;
@@ -43,6 +44,11 @@ body{
 
 .bgcolor-black{
     background-color: var(--color-black);
+    --color-blue
+}
+.bgcolor-blue{
+    background-color: var(--color-blue);
+    
 }
 
 /* #global classes */
@@ -91,7 +97,7 @@ body{
 /* site-main */
 
 .site-banner .banner-area{
-    background: url(./assets/Banner_image.jpg) no-repeat;
+    background: url(./assets/blue.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -104,6 +110,22 @@ body{
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.blu-btn{
+    background-color: var(--color-blue);
+    color: white;
+}
+.blu-btn:hover{
+    color: black;
+    background-color: #80bfff;
+}
+.blu-btn a {
+    color: white;
+    text-decoration: none;
+}
+.blu-btn a:hover {
+    text-decoration: none;
+    color: black;
 }
 
 .site-banner .banner-area .author .author-img{
